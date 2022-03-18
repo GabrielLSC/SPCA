@@ -18,3 +18,38 @@ Utilizando o sensor de presença automático no sistema de iluminação do estac
 |:---------------------------------:|
 | ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/hcsr501_topo.jpg)|
 | Fonte: Próprio autor |
+
+|Figura 2: Sensor de Movimento - Traseira |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/hcsr501_traseira.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 3: Ilustração do Projeto |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustração projeto.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 4: Exemplo 1 de estacionamento |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 5: Exemplo 2 de estacionamento |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.2.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 6: Nomeclatura das partes do componente |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 7: Especificações |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Especificações.jpg)|
+| Fonte: Próprio autor |
+
+|Figura 8: Drive |
+|:---------------------------------:|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Drive.jpg)|
+| Fonte: Próprio autor |

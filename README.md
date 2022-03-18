@@ -8,7 +8,11 @@
 * Thais Mantovani   ( Documentação )
 
 ## Introdução 
-O consumo de energia no país vem aumentando consideravelmente, com isso, o preço aumenta cada vez mais. A economia começa por esse motivo, pela redução de gastos, seja dinheiro ou o meio em que a energia é feita. Com isso em mente, iluminação é um dos fatores que se pode facilmente controlar os gastos.
+O consumo de energia no país vem aumentando consideravelmente, com isso, o preço aumenta cada vez mais. A economia começa por esse motivo, pela redução de gastos e consumo reduzido de energia. Com isso em mente, iluminação é um dos fatores que se pode facilmente controlar esses gastos. 
+
+O racionamento de energia pode ser feito através da mudança na atitude dos usuários, buscando não deixar lâmpadas ligadas desnecessariamente, também através da utilização de sistemas e sensores de presença. Nosso projeto pretende reduzir o consumo de energia gasto em, nesse caso, um estacionamento, pois, ele fica o dia todo com as luminárias ligadas, tendo um consumo muito alto. 
+
+Utilizando o sensor de presença automático no sistema de iluminação do estacionamento, ajuda bastante na economia de energia, evitando gastos inúteis, ligando e desligando as lâmpadas de um ambiente automaticamente.  
 
 |Figura 1: Sensor de Movimento - Topo |
 |:---------------------------------:|

@@ -1,0 +1,9 @@
+Manufacturer=Changjiang Electronics Tech (CJ)
+PartNumber=BT136
+PartCategory=Thyristor
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=1.1
+Released=2020-12-01 05:01:56
+Downloaded=2022-03-18 13:12:30
+3D=Y

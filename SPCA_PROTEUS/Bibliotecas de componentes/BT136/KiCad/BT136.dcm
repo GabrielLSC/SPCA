@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BT136
+D Two-way thyristor 600V 6A 1.45V 10mA TO-220(TO-220-3) Thyristors - TRIACs RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-BT136_C98796.pdf
+$ENDCMP
+#
+#End Doc Library

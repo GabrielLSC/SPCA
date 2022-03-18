@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_2394662"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-01-05:01:56)
+    (utime 2020-12-01-06:26:29)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "BT136")
+)
+
+
+(pinAssign "ECS_2394662"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-01-05:01:56)
+    (utime 2020-12-01-06:26:29)
+    (interface
+        (port "1" (symbPinId 1) (portName "MT2") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT1") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2394662")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BT136")
+)
+
+
+(part "BT136"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-12-01-05:01:56)
+    (utime 2020-12-01-06:26:29)
+    (packageRef "BT136")
+    (pinAssignRef "ECS_2394662")
+    (interface
+        (port "1" (symbPinId 1) (portName "MT2") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT1") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "D")
+    (property "description" "Two-way thyristor 600V 6A 1.45V 10mA TO-220(TO-220-3) Thyristors - TRIACs RoHS")
+    (property "Manufacturer_Name" "Changjiang Electronics Tech (CJ)")
+    (property "Manufacturer_Part_Number" "BT136")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-BT136_C98796.pdf")
+    (property "compAreaTopHeight" 4.67)
+)
+
+

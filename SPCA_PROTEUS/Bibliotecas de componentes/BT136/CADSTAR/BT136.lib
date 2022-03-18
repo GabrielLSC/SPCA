@@ -1,0 +1,18 @@
+.BT136 :1 ;Two-way thyristor 600V 6A 1.45V 10mA TO-220(TO-220-3) Thyristors - TRIACs RoHS
+TO254P467X1016X1971-3P
+*STM D
+*NGS
+*PLB 1="MT2" 2="MT1" 3="G"
+*MXP 3
+*DFN BT136
+~!Manufacturer_Name (Changjiang Electronics Tech (CJ))
+~!Manufacturer_Part_Number (BT136)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-BT136_C98796.pdf)
+~!Height (4.67mm)
+~!3D_Model (BT136)
+BT136
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BT136"
+   (description "Two-way thyristor 600V 6A 1.45V 10mA TO-220(TO-220-3) Thyristors - TRIACs RoHS")
+   (family "ANA")
+   (package "TO254P467X1016X1971-3P")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-BT136_C98796.pdf")
+   (attribute "Geometry.Height" "4.67mm")
+   (attribute "Manufacturer_Name" "Changjiang Electronics Tech (CJ)")
+   (attribute "Manufacturer_Part_Number" "BT136")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "BT136")
+    (pin "MT2" 1 PS)
+    (pin "MT1" 2 PS)
+    (pin "G" 3 PS)
+   )
+  )
+  (symbol "BT136"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 120 0) (pt 480 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 0) (pt 350 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 0) (pt 250 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 0) (pt 100 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 -50) (pt 500 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 350 100) (pt 350 0) (pt 250 50) (pt 350 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 250 -100) (pt 250 0) (pt 350 -50) (pt 250 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 110 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 100 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 -250) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 10) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P467X1016X1971-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.865 3.335)
+      (pt 7.945 3.335)
+      (pt 7.945 -1.835)
+      (pt -2.865 -1.835)
+      (pt -2.865 3.335))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.615 3.085)
+      (pt 7.695 3.085)
+      (pt 7.695 -1.585)
+      (pt -2.615 -1.585)
+      (pt -2.615 3.085))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.615 1.815)
+      (pt -1.345 3.085))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.695 -1.585)
+      (pt 7.695 3.085)
+      (pt -2.615 3.085)
+      (pt -2.615 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.25)
+    (plated true)
+    (pad (layer TCOP) (round 1.875))
+    (pad (layer INNER) (round 1.875))
+    (pad (layer BCOP) (round 1.875))
+   )
+   (padstack 1
+    (hole 1.25)
+    (plated true)
+    (pad (layer TCOP) (square 1.875))
+    (pad (layer INNER) (round 1.875))
+    (pad (layer BCOP) (square 1.875))
+   )
+   (model "BT136.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

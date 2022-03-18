@@ -41,12 +41,12 @@ Utilizando o sensor de presença automático no sistema de iluminação do estac
 
 |Figura 6: Nomeclatura das partes do componente |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.png)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.PNG)|
 | Fonte: Próprio autor |
 
 |Figura 7: Especificações |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Especificações.png)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Especificações.PNG)|
 | Fonte: Próprio autor |
 
 |Figura 8: Drive |

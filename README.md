@@ -1,9 +1,10 @@
 # SPCA
 
 ## Equipe
-* Melissa Aghner 
-* Jefferson Gabriel
-* Matheus Damico
-* Gabriel Lacerda
-* Thais Mantovani
+* Jefferson
+* Lacerda
+* Melissa
+* Thais M.V.
+* Damasco
+
 

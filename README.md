@@ -26,7 +26,7 @@ Utilizando o sensor de presença automático no sistema de iluminação do estac
 
 |Figura 3: Ilustração do Projeto |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustração projeto.png)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustra%C3%A7%C3%A3o%20projeto.png)|
 | Fonte: Próprio autor |
 
 |Figura 4: Exemplo 1 de estacionamento |

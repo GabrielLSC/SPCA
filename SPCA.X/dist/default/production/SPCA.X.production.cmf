@@ -11,12 +11,12 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
+$C:\Users\21193442\AppData\Local\Temp\se3c.o
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 2 2
 $dist/default/production\SPCA.X.production.o
 cinit CODE 0 7FC 7FC 4 2
-maintext CODE 0 7F8 7F8 4 2
+maintext CODE 0 7EA 7EA 12 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -31,13 +31,13 @@ BANK0 20-6F 1
 BANK1 A0-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
-CONST 3-7F7 2
+CONST 3-7E9 2
 CONST 800-1FFF 2
-ENTRY 3-7F7 2
+ENTRY 3-7E9 2
 ENTRY 800-1FFF 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
-CODE 3-7F7 2
+CODE 3-7E9 2
 CODE 800-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -45,9 +45,9 @@ SFR2 100-10F 1
 SFR3 180-18F 1
 COMMON 70-7D 1
 EEDATA 2100-21FF 2
-STRCODE 3-7F7 2
+STRCODE 3-7E9 2
 STRCODE 800-1FFF 2
-STRING 3-7F7 2
+STRING 3-7E9 2
 STRING 800-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -63,15 +63,23 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\SPCA.X.production.o
-7FC cinit CODE >430:C:\Users\SN1011~1\AppData\Local\Temp\sf58.
-7FC cinit CODE >433:C:\Users\SN1011~1\AppData\Local\Temp\sf58.
-7FC cinit CODE >439:C:\Users\SN1011~1\AppData\Local\Temp\sf58.
-7FC cinit CODE >441:C:\Users\SN1011~1\AppData\Local\Temp\sf58.
-7FD cinit CODE >442:C:\Users\SN1011~1\AppData\Local\Temp\sf58.
-7F8 maintext CODE >12:C:\Users\sn1011701\Desktop\SPCA\SPCA.X\main.c
-7F8 maintext CODE >15:C:\Users\sn1011701\Desktop\SPCA\SPCA.X\main.c
-7F8 maintext CODE >18:C:\Users\sn1011701\Desktop\SPCA\SPCA.X\main.c
-7F9 maintext CODE >19:C:\Users\sn1011701\Desktop\SPCA\SPCA.X\main.c
+7FC cinit CODE >434:C:\Users\21193442\AppData\Local\Temp\se3c.
+7FC cinit CODE >437:C:\Users\21193442\AppData\Local\Temp\se3c.
+7FC cinit CODE >443:C:\Users\21193442\AppData\Local\Temp\se3c.
+7FC cinit CODE >445:C:\Users\21193442\AppData\Local\Temp\se3c.
+7FD cinit CODE >446:C:\Users\21193442\AppData\Local\Temp\se3c.
+7EA maintext CODE >16:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7EA maintext CODE >19:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7ED maintext CODE >20:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7EE maintext CODE >22:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7EE maintext CODE >24:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F3 maintext CODE >26:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F4 maintext CODE >27:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F5 maintext CODE >28:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F5 maintext CODE >30:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F7 maintext CODE >31:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F8 maintext CODE >32:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
+7F9 maintext CODE >33:C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -92,19 +100,19 @@ __Hspace_3 0 0 ABS 0 - -
 __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-_main FF0 0 CODE 0 maintext dist/default/production\SPCA.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\21193442\AppData\Local\Temp\se3c.o
+_main FD4 0 CODE 0 maintext dist/default/production\SPCA.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\SPCA.X.production.o
-start 0 0 CODE 0 init C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
+start 0 0 CODE 0 init C:\Users\21193442\AppData\Local\Temp\se3c.o
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\21193442\AppData\Local\Temp\se3c.o
 wtemp0 7E 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -112,7 +120,8 @@ __Lmaintext 0 0 ABS 0 maintext -
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __CFG_MCLRE$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 start_initialization FF8 0 CODE 0 cinit dist/default/production\SPCA.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
+_TRISDbits 88 0 ABS 0 - dist/default/production\SPCA.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\21193442\AppData\Local\Temp\se3c.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -130,6 +139,7 @@ __Lbank3 0 0 ABS 0 bank3 -
 __Lcinit FF8 0 CODE 0 cinit -
 __Lidloc 0 0 IDLOC 0 idloc -
 __Lstack 0 0 STACK 2 stack -
+_PORTDbits 8 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
 __Hinit 0 0 CODE 0 init -
@@ -154,14 +164,14 @@ __S3 0 0 ABS 0 - -
 __CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-__pmaintext FF0 0 CODE 0 maintext dist/default/production\SPCA.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\21193442\AppData\Local\Temp\se3c.o
+__pmaintext FD4 0 CODE 0 maintext dist/default/production\SPCA.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 400E 0 CONFIG 0 config -
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
-stacklo 0 0 ABS 0 - C:\Users\SN1011~1\AppData\Local\Temp\sf58.o
+stackhi 0 0 ABS 0 - C:\Users\21193442\AppData\Local\Temp\se3c.o
+stacklo 0 0 ABS 0 - C:\Users\21193442\AppData\Local\Temp\se3c.o
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
@@ -214,6 +224,6 @@ __CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\SPCA.X.production.o
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7FC FF8 4 2
-maintext 0 7F8 FF0 4 2
+maintext 0 7EA FD4 12 2
 reset_vec 0 0 0 3 2
 config 0 2007 400E 2 2

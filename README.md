@@ -26,30 +26,30 @@ Utilizando o sensor de presença automático no sistema de iluminação do estac
 
 |Figura 3: Ilustração do Projeto |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustração projeto.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustração projeto.png)|
 | Fonte: Próprio autor |
 
 |Figura 4: Exemplo 1 de estacionamento |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.png)|
 | Fonte: Próprio autor |
 
 |Figura 5: Exemplo 2 de estacionamento |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.2.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.2.png)|
 | Fonte: Próprio autor |
 
 |Figura 6: Nomeclatura das partes do componente |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.png)|
 | Fonte: Próprio autor |
 
 |Figura 7: Especificações |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Especificações.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Especificações.png)|
 | Fonte: Próprio autor |
 
 |Figura 8: Drive |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Drive.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Drive.png)|
 | Fonte: Próprio autor |

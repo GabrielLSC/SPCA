@@ -1,10 +1,9 @@
 # SPCA
 
 ## Equipe
-* Jefferson
-* Lacerda
-* Melissa
-* Thais M.V.
-* Damasco
-
+* Melissa Aghnher   ( Líder )
+* Jefferson Gabriel ( Protótipo )
+* Matheus Damico    ( Projeto Eletrônico)
+* Gabriel Lacerda   ( Firmware )
+* Thais Mantovani   ( Documentação )
 

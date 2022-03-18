@@ -12,5 +12,5 @@ O consumo de energia no país vem aumentando consideravelmente, com isso, o pre�
 
 |Figura 1: Sensor de Movimento - Topo |
 |:---------------------------------:|
-| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/imagens/hcsr501_topo.jpg)|
+| ![CPU em 3D](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/hcsr501_topo.jpg)|
 | Fonte: Próprio autor |

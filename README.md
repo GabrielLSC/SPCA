@@ -29,7 +29,7 @@ Esse tipo de sensor é utilizado normalmente em ambientes onde há o trânsito d
 
 |Figura 2: Sensor de Movimento - Traseira |
 |:---------------------------------:|
-| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Sensor traseira.PNG)|
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Sensor%20traseira.PNG)|
 | Fonte: BLOG Eletrogate |
 
 ### Componentes

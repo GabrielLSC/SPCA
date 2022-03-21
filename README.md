@@ -87,11 +87,11 @@ Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou se
 
 # Referências
 
-BLOG ELETROGATE, Automação residencial: Sensor de presença com Arduíno. Disponível em: https://blog.eletrogate.com/automacao-residencial-sensor-de-presenca-com-arduino/  Acesso em: 21 mar 2022. 
+BLOG ELETROGATE, **Automação residencial: Sensor de presença com Arduíno**. Disponível em: https://blog.eletrogate.com/automacao-residencial-sensor-de-presenca-com-arduino/  Acesso em: 21 mar 2022. 
 BUSCADOR DE ARQUITETURA, **Plantas de Estacionamentos**. Disponível em: https://capsistema.com.br/index.php/2020/12/10/como-usar-o-sensor-de-movimento-pir-hc-sr501-com-arduino/ Acesso em: 21 mar 2022. 
 CAP SISTEMA, **Como usar o sensor de movimento PIR HC-SR501 com Arduino**. Disponível em: https://capsistema.com.br/index.php/2020/12/10/como-usar-o-sensor-de-movimento-pir-hc-sr501-com-arduino/ . Acesso em: 21 de mar de 2022.
-HACK EDUCA, Hc-sr501 – Sensor De Movimento – Como Ligar? Disponível em: https://www.hackeduca.com.br/hc-sr201_sensor_de_movimento-como-ligar/ Acesso em: 21 mar 2022.
-POSITIVO CASA INTELIGENTE, Como funcionam os sensores de presença e por que eles são ideais para proteger a sua residência https://blog.positivocasainteligente.com.br/como-funcionam-os-sensores-de-presenca-e-por-que-eles-sao-ideais-para-proteger-a-sua-residencia/#:~:text=Um%20sensor%20de%20presen%C3%A7a%20%C3%A9,e%20outros%20tipos%20de%20ondas. Acesso em: 21 mar 2022. 
+HACK EDUCA, Hc-sr501 – **Sensor De Movimento – Como Ligar?** Disponível em: https://www.hackeduca.com.br/hc-sr201_sensor_de_movimento-como-ligar/ Acesso em: 21 mar 2022.
+POSITIVO CASA INTELIGENTE, **Como funcionam os sensores de presença e por que eles são ideais para proteger a sua residência**. Disponível em: https://blog.positivocasainteligente.com.br/como-funcionam-os-sensores-de-presenca-e-por-que-eles-sao-ideais-para-proteger-a-sua-residencia/#:~:text=Um%20sensor%20de%20presen%C3%A7a%20%C3%A9,e%20outros%20tipos%20de%20ondas. Acesso em: 21 mar 2022. 
  
 
 |Figura 7: Drive |

@@ -2527,11 +2527,12 @@ extern __bank0 __bit __timeout;
 
 
 
-void main(void)
+void main (void)
 {
 
-    TRISDbits.TRISD0 = 0;
-    TRISDbits.TRISD1 = 1;
+    TRISDbits.TRISD0 = 1;
+    TRISDbits.TRISD1 = 0;
+    PORTDbits.RD1 = 0;
 
     while( 1 )
     {

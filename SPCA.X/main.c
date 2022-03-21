@@ -10,20 +10,21 @@
 #include <pic16f887.h>
 #include "config.h"
 
-#define LAMPADA PORTDbits.RD1
-#define SENSOR  PORTDbits.RD0
+#define LAMPADA PORTDbits.RD1 // Define apelido de LAMPADA para a porta RD1
+#define SENSOR  PORTDbits.RD0 // Define apelido de SENSOR para a porta RD0
 
-void main(void)
+void main (void)
 {
-
-    TRISDbits.TRISD0 = 0;
-    TRISDbits.TRISD1 = 1;
     
+    TRISDbits.TRISD0 = 1; // Define a porta RD0 como entrada
+    TRISDbits.TRISD1 = 0; // Define a porta RD1 como saida
+    LAMPADA = 0;          // Inicia com a Lampada apagada 
+
     while( 1 )
     {
-        if(SENSOR == 1)
-        {
-            LAMPADA = 1;
+        if(SENSOR == 1)    
+        {  
+            LAMPADA = 1;   
         }
         else
         {

@@ -2501,6 +2501,7 @@ extern __bank0 __bit __timeout;
 # 27 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.00\\pic\\include\\xc.h" 2 3
 # 9 "main.c" 2
 
+
 # 1 "./config.h" 1
 
 
@@ -2520,14 +2521,28 @@ extern __bank0 __bit __timeout;
 
 #pragma config BOR4V = BOR40V
 #pragma config WRT = OFF
-# 10 "main.c" 2
+# 11 "main.c" 2
 
 
-void main(void)
+
+
+
+void main (void)
 {
+
+    TRISDbits.TRISD0 = 1;
+    TRISDbits.TRISD1 = 0;
+    PORTDbits.RD1 = 0;
 
     while( 1 )
     {
-
+        if(PORTDbits.RD0 == 1)
+        {
+            PORTDbits.RD1 = 1;
+        }
+        else
+        {
+            PORTDbits.RD1 = 0;
+        }
     }
 }

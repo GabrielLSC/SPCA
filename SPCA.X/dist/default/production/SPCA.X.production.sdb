@@ -11,9 +11,34 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"12 C:\Users\sn1011701\Desktop\SPCA\SPCA.X\main.c
+"16 C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
 [v _main main `(v  1 e 1 0 ]
+[s S43 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES52  1 e 1 @8 ]
+[s S22 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES31  1 e 1 @136 ]
+"16 C:\Users\21193442\Desktop\SPCA\SPCA.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"19
+"34
 } 0

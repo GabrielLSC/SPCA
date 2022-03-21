@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BT136
+#/2394662/790164/2.49/3/3/Thyristor
+DEF BT136 D 0 30 Y Y 1 F N
+F0 "D" 550 -100 50 H V L CNN
+F1 "BT136" 550 -200 50 H V L CNN
+F2 "TO254P467X1016X1971-3P" 550 -300 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-BT136_C98796.pdf" 550 -400 50 H I L CNN
+F4 "Two-way thyristor 600V 6A 1.45V 10mA TO-220(TO-220-3) Thyristors - TRIACs RoHS" 550 -500 50 H I L CNN "Description"
+F5 "4.67" 550 -600 50 H I L CNN "Height"
+F6 "Changjiang Electronics Tech (CJ)" 550 -700 50 H I L CNN "Manufacturer_Name"
+F7 "BT136" 550 -800 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -900 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -1000 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -1100 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -1200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+X ~ 3 500 -250 100 U 50 50 0 0 P
+P 2 0 1 6 350 0 350 -100 N
+P 2 0 1 6 250 0 250 100 N
+P 2 0 1 6 350 0 500 0 N
+P 2 0 1 6 250 0 100 0 N
+P 2 0 1 6 350 -50 500 -150 N
+C 300 0 180 0 1 10 N
+P 4 0 1 10 350 100 350 0 250 50 350 100 F
+P 4 0 1 10 250 -100 250 0 350 -50 250 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

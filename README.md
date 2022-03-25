@@ -8,11 +8,11 @@
 * Thais Mantovani   ( Documentação )
 
 ## Introdução 
-O consumo de energia no país vem aumentando consideravelmente, com isso, o preço aumenta cada vez mais. A economia começa por esse motivo, pela redução de gastos e consumo reduzido de energia. Com isso em mente, iluminação é um dos fatores que se pode facilmente controlar esses gastos. 
+O componente utilizado nesse projeto é o HC-SR501, módulo de controle que usa o sensor PIR (piroelétrico), que detecta a variabilidade da luz infravermelha emitida pela radiação do corpo humano. O sensor possibilita o ajuste do tempo de detecção, padrão e sensibilidade. 
 
-O racionamento de energia pode ser feito através da mudança na atitude dos usuários, buscando não deixar lâmpadas ligadas desnecessariamente, também através da utilização de sistemas e sensores de presença. Nosso projeto pretende reduzir o consumo de energia gasto em, nesse caso, um estacionamento, pois, ele fica o dia todo com as luminárias ligadas, tendo um consumo muito alto. 
+Sensores infravermelhos usam radiação térmica (calor) de objetos para detectar movimento. Para esse fim, disparam feixes de luz que a visão humana não alcança (infravermelho), medindo fótons para verificar a temperatura do alvo. Os sensores infravermelhos, usados para detectar pessoas, são programados para responder a uma faixa de 35 a 40 graus Celsius, pois é uma faixa média da temperatura do corpo humano, a fim de evitar alarmes falsos. 
 
-Utilizando o sensor de presença automático no sistema de iluminação do estacionamento, ajuda bastante na economia de energia, evitando gastos inúteis, ligando e desligando as lâmpadas de um ambiente automaticamente.  
+O HC-SR501 é indicado para uso em lugares úmidos ou com pouca influência do sol, pois com decorrência de variações do ambiente, pode atrapalhar na detecção de temperatura. Contudo, na busca para o funcionamento do projeto, tais características mencionadas atendem para finalidade desejada. 
 
 ## Sensor
 ### Funcionamento

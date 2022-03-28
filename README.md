@@ -40,7 +40,7 @@ O HC-SR501 é indicado para uso em lugares úmidos ou com pouca influência do s
 * Resistores 330 Ω (2x) 
 * Optoacopladores (2x) 
 * LED (2x) 
-* MOSFET (2x) 
+* Tiristor - BT136 (2x) 
 
 |Figura 3: Nomeclatura das partes do componente |
 |:---------------------------------:|

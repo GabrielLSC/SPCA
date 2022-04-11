@@ -32,16 +32,6 @@ O HC-SR501 é indicado para uso em lugares úmidos ou com pouca influência do s
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Sensor%20traseira.PNG)|
 | Fonte: BLOG Eletrogate |
 
-### Componentes
-* Sensor de movimento PIR HC-SR501 (3,2 x 2,3); 
-* Fonte retificadora (10x5); 
-* CPU (10,3 x4,8); 
-* Resistores 100 Ω (2x)  
-* Resistores 330 Ω (2x) 
-* Optoacopladores (2x) 
-* LED (2x) 
-* Tiristor - BT136 (2x) 
-
 |Figura 3: Nomeclatura das partes do componente |
 |:---------------------------------:|
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Classificação.PNG)|
@@ -71,6 +61,16 @@ Visando uma melhor acessibilidade para o usuário, as lâmpadas próximas també
 ## Projeto Eletrônico 
 ## Programação 
 ## Protótipo 
+
+### Componentes
+* Sensor de movimento PIR HC-SR501 (3,2 x 2,3); 
+* Fonte retificadora (10x5); 
+* CPU (10,3 x4,8); 
+* Resistores 100 Ω (2x)  
+* Resistores 330 Ω (2x) 
+* Optoacopladores (2x) 
+* LED (2x) 
+* Tiristor - BT136 (2x) 
 
 Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou seja, ele estará colado em uma caixa que será instalada ao lado da luminária. Essa caixa possui o esquema eletrônico, que consiste em: entrada pra a luminária, drive que basicamente terá um tiristor e optoacoplador, CPU e sensor. (sujeito a alterações) 
 

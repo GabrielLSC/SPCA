@@ -1,30 +1,8 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[p mainexit ]
-"1608 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1608:     struct {
-[s S59 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S59 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
-"1607
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1607: typedef union {
-[u S58 `S59 1 ]
-[n S58 . . ]
-"1619
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 1619: extern volatile TRISDbits_t TRISDbits __attribute__((address(0x088)));
-[v _TRISDbits `VS58 ~T0 @X0 0 e@136 ]
-"358
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 358:     struct {
-[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S12 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
-"357
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 357: typedef union {
-[u S11 `S12 1 ]
-[n S11 . . ]
-"369
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 369: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
-[v _PORTDbits `VS11 ~T0 @X0 0 e@8 ]
-"6 ./delay.h
-[; ;./delay.h: 6: void delay ( unsigned int t );
-[v _delay `(v ~T0 @X0 0 ef1`ui ]
+[v F1256 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic.h
+[v __delay `JF1256 ~T0 @X0 0 e ]
+[p i __delay ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 54: __asm("INDF equ 00h");
 [; <" INDF equ 00h ;# ">
@@ -259,110 +237,44 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3546
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
 [; <" EECON2 equ 018Dh ;# ">
-"5 ./config.h
-[p x FOSC = INTRC_NOCLKOUT ]
-"6
-[p x WDTE = OFF ]
+"5 delay.c
+[; ;delay.c: 5: int i;
+[v _i `i ~T0 @X0 1 e ]
 "7
-[p x PWRTE = OFF ]
+[; ;delay.c: 7: void delay (unsigned int t)
+[v _delay `(v ~T0 @X0 1 ef1`ui ]
 "8
-[p x MCLRE = OFF ]
-"9
-[p x CP = OFF ]
-"10
-[p x CPD = OFF ]
-"11
-[p x BOREN = OFF ]
-"12
-[p x IESO = OFF ]
-"13
-[p x FCMEN = OFF ]
-"14
-[p x LVP = OFF ]
-"17
-[p x BOR4V = BOR40V ]
-"18
-[p x WRT = OFF ]
-[v $root$_main `(v ~T0 @X0 0 e ]
-"17 main.c
-[; ;main.c: 17: void main (void)
-[v _main `(v ~T0 @X0 1 ef ]
-"18
-[; ;main.c: 18: {
+[; ;delay.c: 8: {
 {
-[e :U _main ]
+[e :U _delay ]
+"7
+[; ;delay.c: 7: void delay (unsigned int t)
+[v _t `ui ~T0 @X0 1 r1 ]
+"8
+[; ;delay.c: 8: {
 [f ]
-"20
-[; ;main.c: 20:     TRISDbits.TRISD2 = 1;
-[e = . . _TRISDbits 0 2 -> -> 1 `i `uc ]
-"21
-[; ;main.c: 21:     TRISDbits.TRISD1 = 0;
-[e = . . _TRISDbits 0 1 -> -> 0 `i `uc ]
-"22
-[; ;main.c: 22:     PORTDbits.RD1 = 0;
-[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
-"24
-[; ;main.c: 24:     int t_sensor = 0;
-[v _t_sensor `i ~T0 @X0 1 a ]
-[e = _t_sensor -> 0 `i ]
-"26
-[; ;main.c: 26:     while( 1 )
+"9
+[; ;delay.c: 9:     while( t )
+[e $U 139  ]
 [e :U 140 ]
-"27
-[; ;main.c: 27:     {
+"10
+[; ;delay.c: 10:     {
 {
-"28
-[; ;main.c: 28:         if(PORTDbits.RD2 == 1)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 1 `i 142  ]
-"29
-[; ;main.c: 29:         {
-{
-"30
-[; ;main.c: 30:            PORTDbits.RD1 = 1;
-[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
-"31
-[; ;main.c: 31:            t_sensor = 4500;
-[e = _t_sensor -> 4500 `i ]
-"32
-[; ;main.c: 32:         }
-}
-[e :U 142 ]
-"34
-[; ;main.c: 34:         if(PORTDbits.RD2 == 0)
-[e $ ! == -> . . _PORTDbits 0 2 `i -> 0 `i 143  ]
-"35
-[; ;main.c: 35:         {
-{
-"36
-[; ;main.c: 36:             --t_sensor;
-[e =- _t_sensor -> 1 `i ]
-"37
-[; ;main.c: 37:             delay(1);
-[e ( _delay (1 -> -> 1 `i `ui ]
-"39
-[; ;main.c: 39:             if(t_sensor <=0)
-[e $ ! <= _t_sensor -> 0 `i 144  ]
-"40
-[; ;main.c: 40:             {
-{
-"41
-[; ;main.c: 41:                 PORTDbits.RD1 = 0;
-[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
-"42
-[; ;main.c: 42:             }
-}
-[e :U 144 ]
-"43
-[; ;main.c: 43:         }
-}
-[e :U 143 ]
-"44
-[; ;main.c: 44:     }
+"11
+[; ;delay.c: 11:      _delay((unsigned long)((1)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"12
+[; ;delay.c: 12:      --t;
+[e =- _t -> -> 1 `i `ui ]
+"13
+[; ;delay.c: 13:     }
 }
 [e :U 139 ]
-[e $U 140  ]
+"9
+[; ;delay.c: 9:     while( t )
+[e $ != _t -> -> 0 `i `ui 140  ]
 [e :U 141 ]
-"45
-[; ;main.c: 45: }
+"14
+[; ;delay.c: 14: }
 [e :UE 138 ]
 }

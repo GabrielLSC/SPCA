@@ -80,9 +80,9 @@ Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou se
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustra%C3%A7%C3%A3o%20projeto.png)|
 | Fonte: Próprio autor |
 
-### Componentes (Instalção)
-
 ## Esquema Elétrico 
+
+### Componentes (Instalção)
 
 # Testes 
 (colocar imagem  da tabela)

@@ -60,13 +60,13 @@ Visando uma melhor acessibilidade para o usuário, as lâmpadas próximas també
 
 |Figura 6: Esquema Eletrônico |
 |:---------------------------------:|
-| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.png)|
-| Fonte: Buscador de Arquitetura |
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/esquem%C3%A1tico.PNG) |
+| Fonte:  Autor próprio | 
 
 |Figura 6: Esquema Eletrônico - layout |
 |:---------------------------------:|
-| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.png)|
-| Fonte: Buscador de Arquitetura |
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/esquema_PCB.PNG) |
+| Fonte: Autor próprio |
 
 ## Programação 
 
@@ -86,7 +86,7 @@ Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou se
 
 |Figura 5: Ilustração do Projeto |
 |:---------------------------------:|
-| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Ilustra%C3%A7%C3%A3o%20projeto.png)|
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/prototipo.png) |
 | Fonte: Próprio autor |
 
 ## Esquema Elétrico 

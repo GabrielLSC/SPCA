@@ -108,9 +108,15 @@ Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou se
 * Caixa do sensor 
 
 # Testes 
-(colocar imagem  da tabela)
+
+|Figura 11: Testes|
+|:---------------------------------:|
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Capturar%20(2).PNG) |
+| Fonte: Próprio autor |
 
 # Conclusão
+
+Este projeto atingiu o objetivo requisitado, diminuir o custo e o consumo de energia. Com a realização de testes na montagem do protótipo e na programação, foi atingido o objetivo do projeto, para assim ajudar na economia do custo e consumo de energia. Os responsáveis pela operação são: PIC16F887 e o sensor HC-SR501, que estão programados para controlar o uso de contínuo de energia em um estacionamento, ligando apenas quando necessário. 
 
 # Referências
 
@@ -123,9 +129,4 @@ CAP SISTEMA, **Como usar o sensor de movimento PIR HC-SR501 com Arduino**. Dispo
 HACK EDUCA, Hc-sr501 – **Sensor De Movimento – Como Ligar?** Disponível em: https://www.hackeduca.com.br/hc-sr201_sensor_de_movimento-como-ligar/ Acesso em: 21 mar 2022.
 
 POSITIVO CASA INTELIGENTE, **Como funcionam os sensores de presença e por que eles são ideais para proteger a sua residência**. Disponível em: https://blog.positivocasainteligente.com.br/como-funcionam-os-sensores-de-presenca-e-por-que-eles-sao-ideais-para-proteger-a-sua-residencia/#:~:text=Um%20sensor%20de%20presen%C3%A7a%20%C3%A9,e%20outros%20tipos%20de%20ondas. Acesso em: 21 mar 2022. 
- 
 
-|Figura 7: Drive |
-|:---------------------------------:|
-| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/Drive.png)|
-| Fonte: Próprio autor |

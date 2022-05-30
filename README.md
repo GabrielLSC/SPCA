@@ -49,7 +49,7 @@ Para melhor economia de energia em um estacionamento, esse projeto foi desenvolv
 
 Visando uma melhor acessibilidade para o usuário, as lâmpadas próximas também serão ligadas e depois de um determinado tempo, o suficiente para a pessoa fazer o que for necessário, as lâmpadas serão desligadas. 
 
-|Figura 6: Exemplo de estacionamento |
+|Figura 5: Exemplo de estacionamento |
 |:---------------------------------:|
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Imagens/exemplo_estac.png)|
 | Fonte: Buscador de Arquitetura |
@@ -63,12 +63,17 @@ Visando uma melhor acessibilidade para o usuário, as lâmpadas próximas també
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/esquem%C3%A1tico.PNG) |
 | Fonte:  Autor próprio | 
 
-|Figura 6: Esquema Eletrônico - layout |
+|Figura 7: Esquema Eletrônico - layout |
 |:---------------------------------:|
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/esquema_PCB.PNG) |
 | Fonte: Autor próprio |
 
 ## Programação 
+
+|Figura 8: Programação |
+|:---------------------------------:|
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Capturar.PNG) |
+| Fonte: Autor próprio |
 
 ### Componentes (Protoboard)
 *  Sensor de movimento PIR HC-SR501 (3,2 x 2,3);
@@ -84,14 +89,23 @@ Visando uma melhor acessibilidade para o usuário, as lâmpadas próximas també
 
 Para melhor atuação decidimos colocar o sensor acompanhado de uma caixa, ou seja, ele estará colado em uma caixa que será instalada ao lado da luminária. Essa caixa possui o esquema eletrônico, que consiste em: entrada pra a luminária, drive que basicamente terá um tiristor e optoacoplador, CPU e sensor.
 
-|Figura 5: Ilustração do Projeto |
+|Figura 9: Ilustração do Projeto |
 |:---------------------------------:|
 | ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/prototipo.png) |
 | Fonte: Próprio autor |
 
 ## Esquema Elétrico 
 
+|Figura 10: Esquema elétrico |
+|:---------------------------------:|
+| ![Sensor](https://github.com/MelissaAGMMedeiros/SPCA/blob/main/Esquema_SPCA.png) |
+| Fonte: Próprio autor |
+
 ### Componentes (Instalção)
+
+* Lâmpada
+* Cabos (neutro / fase / retorno)
+* Caixa do sensor 
 
 # Testes 
 (colocar imagem  da tabela)
